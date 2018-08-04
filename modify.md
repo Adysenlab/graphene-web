@@ -7,3 +7,8 @@ the changes are to be propagated with accordance with the project completion
 
 
 changes are to be  initiated from the [ https://webpack.js.org/ ]
+
+# dated :: 03 August 2018 
+
+the website is to be hosted on the radii.in login system and 
+it is responsible for making the progressive web app too
