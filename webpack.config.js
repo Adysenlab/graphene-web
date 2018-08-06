@@ -6,7 +6,7 @@ var CleanWebpackPlugin = require('clean-webpack-plugin');
 var SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 var WebpackPwaManifest = require('webpack-pwa-manifest');
 
-const PUBLIC_PATH = 'https://www.radii.in/';
+
 
 var extractPlugin = new ExtractTextPlugin({
    filename: 'main.css'
@@ -17,7 +17,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-         publicPath: PUBLIC_PATH
+         
     },
     module: {
         rules: [
@@ -76,7 +76,9 @@ module.exports = {
         }),
         extractPlugin,
         new HtmlWebpackPlugin({
-            template: 'src/index.html'
+            template: 'src/index.html',
+            minify: true
+            
         }),
         new CleanWebpackPlugin(['dist']), 
 
@@ -90,8 +92,9 @@ module.exports = {
               staticFileGlobsIgnorePatterns: [/\.map$/, /manifest\.json$/]
             }
           ),
+          //works only in https and android and ios browsers
           new WebpackPwaManifest({
-            name: 'My Applications Friendly Name',
+            name: 'Radii School of Thoughts',
             short_name: 'Radii lab',
             description: 'the general platform for all furthur developments',
             background_color: '#01579b',

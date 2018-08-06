@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/AloyASen/graphchain#readme",
   "dependencies": {
+    "firebase": "^5.3.1",
     "jquery": "^3.3.1"
   },
   "devDependencies": {
