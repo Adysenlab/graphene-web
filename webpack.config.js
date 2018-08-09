@@ -66,7 +66,15 @@ module.exports = {
                     }
                 ],
                 exclude: path.resolve(__dirname, 'src/index.html')
-            }
+            },
+            {
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+                query: {
+                   presets: ['es2015', 'react']
+                }
+             }
         ]
     },
     plugins: [

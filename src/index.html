@@ -1,120 +1,134 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Webpack 2 Basics</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Webpack 2 Basics</title>
 </head>
+
 <body>
 
   <!-- this is the login button that will pop up -->
   <div id="id01" class="modal">
-  
+
     <form class="modal-content animate" action="/action_page.php">
       <div class="imgcontainer">
         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
         <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
       </div>
-  
+
       <div class="container">
-        <label for="uname"><b>Username</b></label>
+        <label for="uname">
+          <b>Username</b>
+        </label>
         <input type="text" placeholder="Enter Username" name="uname" required>
-  
-        <label for="psw"><b>Password</b></label>
+
+        <label for="psw">
+          <b>Password</b>
+        </label>
         <input type="password" placeholder="Enter Password" name="psw" required>
-          
+
         <button type="submit">Login</button>
         <div class="w3-container w3-center">
-            <h2>OR</h2>
-            <div class="w3-bar">
-                <button class="w3-button w3-black" id="gLogin">Login with Google</button>
-            </div>
+          <h2>OR</h2>
+          <div class="w3-bar">
+            <button class="w3-button w3-black" id="gLogin">Login with Google</button>
+          </div>
         </div>
-        
+
       </div>
-  
+
       <div class="container" style="background-color:#f1f1f1">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" 
-        class="cancelbtn">Cancel</button>
-        <span class="psw"><a href="#">Forgot password?</a></span>
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">
+          <a href="#">Forgot password?</a>
+        </span>
       </div>
     </form>
   </div>
-    <div class="w3-row w3-padding w3-theme-d2 w3-xlarge">
-      <div class="w3-quarter">
-        <div class="w3-bar">
-          
-          <a href="#" class="w3-bar-item w3-button w3-left"><img class="w3-hide-small w3-circle" src="img/img_avtar.jpg" style="height:40px;"></a>
+  <div class="w3-row w3-padding w3-theme-d2 w3-xlarge">
+    <div class="w3-quarter">
+      <div class="w3-bar">
+
+        <a href="#" class="w3-bar-item w3-button w3-left">
+          <img class="w3-hide-small w3-circle" src="img/img_avtar.jpg" style="height:40px;">
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-half">
+      <input type="text" class="w3-amber w3-border-0 w3-padding" style="width:100%">
+    </div>
+
+    <div class="w3-quarter">
+      <div class="w3-bar w3-xlarge">
+        <a href="#" class="w3-bar-item w3-button w3-left">
+          <i class="fa fa-search"></i>
+        </a>
+        <a href="#" class="w3-bar-item w3-button w3-right">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-32 w3-theme-d1 w3-pale-yellow w3-center" style="padding:128px 16px">
+    <h1 class="w3-margin w3-jumbo">Adysen-lab</h1>
+    <p class="w3-xlarge">Innovation within</p>
+    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="document.getElementById('id01').style.display='block'"
+      style="width:auto;">Login</button>
+  </div>
+
+  <div class="w3-row-padding w3-theme">
+
+    <div class="w3-third w3-section">
+      <div class="w3-card-4">
+        <img src="img/img_5terre.jpg" style="width:100%">
+        <div class="w3-container w3-white">
+          <h4>Cinque Terre</h4>
+          <p>The Cinque Terre (five lands) is a portion of the Italian Riviera. The coastline with five villages: Monterosso,
+            Vernazza, Corniglia, Manarola, and Riomaggiore is a UNESCO World Heritage Site.</p>
         </div>
       </div>
-    
-      <div class="w3-half">
-        <input type="text" class="w3-amber w3-border-0 w3-padding" style="width:100%">
-      </div>
-    
-      <div class="w3-quarter">
-        <div class="w3-bar w3-xlarge">
-          <a href="#" class="w3-bar-item w3-button w3-left"><i class="fa fa-search"></i></a>
-          <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-bars"></i></a>
+    </div>
+
+    <div class="w3-third w3-section">
+      <div class="w3-card-4">
+        <img src="img/img_monterosso.jpg" style="width:100%">
+        <div class="w3-container w3-white">
+          <h4>Monterosso</h4>
+          <p>Monterosso al Mare is located at the center of a small natural gulf, protected by a small artificial reef, in the
+            Riviera of La Spezia. It is the northernmost village of the Cinque Terre.</p>
         </div>
-    
       </div>
     </div>
-    
-    <div class="w3-container w3-padding-32 w3-theme-d1 w3-pale-yellow w3-center" style="padding:128px 16px">
-      <h1 class="w3-margin w3-jumbo">Adysen-lab</h1>
-      <p class="w3-xlarge">Innovation within</p>
-      <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" 
-      onclick="document.getElementById('id01').style.display='block'"
-       style="width:auto;">Login</button>
-    </div>
-    
-    <div class="w3-row-padding w3-theme">
-    
+
     <div class="w3-third w3-section">
-    <div class="w3-card-4">
-    <img src="img/img_5terre.jpg" style="width:100%">
-    <div class="w3-container w3-white">
-    <h4>Cinque Terre</h4>
-    <p>The Cinque Terre (five lands) is a portion of the Italian Riviera. The coastline with five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore
-    is a UNESCO World Heritage Site.</p>
+      <div class="w3-card-4">
+        <img src="img/img_vernazza.jpg" style="width:100%">
+        <div class="w3-container w3-white">
+          <h4>Vernazza</h4>
+          <p>Vernazza is another of the five towns in the region. Vernazza is the fourth town heading north. It has no car traffic,
+            and is one of the truest "fishing villages" on the Italian Riviera.
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
     </div>
-    </div>
-    </div>
-    
-    <div class="w3-third w3-section">
-    <div class="w3-card-4">
-    <img src="img/img_monterosso.jpg" style="width:100%">
-    <div class="w3-container w3-white">
-    <h4>Monterosso</h4>
-    <p>Monterosso al Mare is located at the center of a small natural gulf, protected by a small artificial reef,
-    in the Riviera of La Spezia. It is the northernmost village of the Cinque Terre.</p>
-    </div>
-    </div>
-    </div>
-    
-    <div class="w3-third w3-section">
-    <div class="w3-card-4">
-    <img src="img/img_vernazza.jpg" style="width:100%">
-    <div class="w3-container w3-white">
-    <h4>Vernazza</h4>
-    <p>Vernazza is another of the five towns in the region. Vernazza is the fourth town heading north. It has no car traffic, and is one of the truest
-    "fishing villages" on the Italian Riviera.
-    </div>
-    </div>
-    <br><br><br>
-    </div>
-    </div>
-    <div class="w3-container w3-theme-d4">
+  </div>
+  <div class="w3-container w3-theme-d4">
     <p class="w3-large">Europe Italy</p>
-    </div>
-    
-    </body>
+  </div>
+
+</body>
+
 </html>
 
