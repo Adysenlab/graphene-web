@@ -1,6 +1,4 @@
 # graphene-web
-[![Slack Status]https://img.shields.io/badge/slack-3/8-pink.svg](https://adysenlab.slack.com)
-
 
 Web console for new generation of firebase web apps ( Update 2018 )
 
