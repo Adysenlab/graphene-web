@@ -1,10 +1,33 @@
 # graphene-web
-Web console for the new general ai
+[![Slack Status](https://slack.adysenlab.slack.com/badge.svg)](https://adysenlab.slack.com)
 
-@Radii is a spinoff from adysenlab
 
-with the growth of requirement in personal assistance.Of supply chain management of both aggregated informative documents, retail products, etc.
+Web console for new generation of firebase web apps ( Update 2018 )
 
-the web ui to the server system that the assistant requires to display the information.
+@graphene is a spinoff from adysenlab for partner companies
 
-the raddi spin off is taking off on [ october 2018 ]
+with the growth of requirement in Web apps We are releasing a test compile for the sample firebase product that we have built with love.
+
+for any communication related to product development , changes or training please use our channel as above 
+
+# directly talk to our developers
+
+https://join.slack.com/t/adysenlab/shared_invite/enQtNDIwMjkwNDU4NjQ3LTM0ZmQwYmNmNDBlNWJjZTVjOGU0Y2RhYTM2ZjBhNmYzZDEwMjFhMmY5ZDIzYWQ3NjEyYzNkZGI3YWViMzY1NjY
+
+# Bring something to our notice (mail)
+
+q8w0s0n6z9e8e8p0@adysenlab.slack.com
+
+
+# for publications and more products 
+https://adysenlab.github.io/
+
+# features 
+Node js 
+webpack
+firebase addon
+sass
+Progessive
+Ecmascript support
+
+other radii spinoffs 

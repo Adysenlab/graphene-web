@@ -102,8 +102,8 @@ module.exports = {
           ),
           //works only in https and android and ios browsers
           new WebpackPwaManifest({
-            name: 'Radii School of Thoughts',
-            short_name: 'Radii lab',
+            name: 'adysen lab',
+            short_name: 'Adysen lab lab',
             description: 'the general platform for all furthur developments',
             background_color: '#01579b',
             theme_color: '#01579b',
