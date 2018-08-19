@@ -1,13 +1,8 @@
 import '../css/main.scss';
 import '../dash.html'
-import 'jquery';
 
 
-// jquery is working on this website
 
-$("p").click(function(){
-    console.log('dick p fired up');
-  });
 
 /*node firebase link
 this website will serve as a client to the server that  is in development 
@@ -29,12 +24,12 @@ import firebase from "firebase";
 
 
 var config = {
-  apiKey: "AIzaSyDvrw3MpeJyFbRcU7gZs9o8nelq6I8ot8I",
-  authDomain: "radii-website.firebaseapp.com",
-  databaseURL: "https://radii-website.firebaseio.com",
-  projectId: "radii-website",
-  storageBucket: "radii-website.appspot.com",
-  messagingSenderId: "592618696557"
+  apiKey: APP_SECRETS_HERE,
+  authDomain: APP_SECRETS_HERE,
+  databaseURL: APP_SECRETS_HERE,
+  projectId: APP_SECRETS_HERE,
+  storageBucket: APP_SECRETS_HERE,
+  messagingSenderId: APP_SECRETS_HERE
 };
 firebase.initializeApp(config)
 

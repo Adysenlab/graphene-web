@@ -10,7 +10,7 @@ for any communication related to product development , changes or training pleas
 
 # directly talk to our developers
 
-https://join.slack.com/t/adysenlab/shared_invite/enQtNDIwMjkwNDU4NjQ3LTM0ZmQwYmNmNDBlNWJjZTVjOGU0Y2RhYTM2ZjBhNmYzZDEwMjFhMmY5ZDIzYWQ3NjEyYzNkZGI3YWViMzY1NjY
+[ in our messenger channel](https://join.slack.com/t/adysenlab/shared_invite/enQtNDIwMjkwNDU4NjQ3LTM0ZmQwYmNmNDBlNWJjZTVjOGU0Y2RhYTM2ZjBhNmYzZDEwMjFhMmY5ZDIzYWQ3NjEyYzNkZGI3YWViMzY1NjY)
 
 # Bring something to our notice (mail)
 
