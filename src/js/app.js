@@ -9,7 +9,8 @@ this website will serve as a client to the server that  is in development
 
 */
 
-import firebase from "firebase";
+import firebase from "firebase/app";
+import 'firebase/auth'; // bare- namespace import
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
 
