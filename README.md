@@ -10,15 +10,14 @@ for any communication related to product development , changes or training pleas
 
 # directly talk to our developers
 
-[ in our messenger channel](https://join.slack.com/t/adysenlab/shared_invite/enQtNDIwMjkwNDU4NjQ3LTM0ZmQwYmNmNDBlNWJjZTVjOGU0Y2RhYTM2ZjBhNmYzZDEwMjFhMmY5ZDIzYWQ3NjEyYzNkZGI3YWViMzY1NjY)
+[ in our messenger channel](https://join.slack.com/t/radiilab/shared_invite/enQtNDM3OTIwMTEzMTA5LTRiNjYzNjFlNjgxMmZlYWQyNGE5MmQ2YTNlMWM3M2NiYmI2YmFhM2FlY2IzOWQzMjJmMWZkMWFjMmZhNjMzYzg)
 
 # Bring something to our notice (mail)
 
-q8w0s0n6z9e8e8p0@adysenlab.slack.com
-
+w5s3k5v9i3f5p8a9@radiilab.slack.com
 
 # for publications and more products 
-https://adysenlab.github.io/
+https://edu.radii.in/
 
 # features 
 Node js 
